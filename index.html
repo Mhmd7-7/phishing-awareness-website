@@ -1,0 +1,479 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Phishing & Social Engineering - التصيد والهندسة الاجتماعية</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@300;400;500;700&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="header-content">
+            <div class="controls">
+                <button class="lang-toggle" id="langToggle">
+                    <i class="fas fa-language"></i>
+                    <span class="lang-ar">English</span>
+                    <span class="lang-en">العربية</span>
+                </button>
+                
+                <button class="theme-toggle" id="themeToggle">
+                    <i class="fas fa-moon"></i>
+                    <span class="lang-ar">الوضع الداكن</span>
+                    <span class="lang-en">Dark Mode</span>
+                </button>
+            </div>
+            
+            <h1>
+                <i class="fas fa-shield-alt"></i> 
+                <span class="lang-ar">التصيد والهندسة الاجتماعية</span>
+                <span class="lang-en">Phishing & Social Engineering</span>
+            </h1>
+            <p class="subtitle">
+                <span class="lang-ar">فكر قبل النقر! - أمثلة واقعية وتوعوية</span>
+                <span class="lang-en">Think Before You Click! - Real Examples & Awareness</span>
+            </p>
+            
+            <div class="nav-tabs">
+                <button class="nav-tab active" data-target="whatis">
+                    <i class="fas fa-question-circle"></i>
+                    <span class="lang-ar">ما هو التصيد؟</span>
+                    <span class="lang-en">What is Phishing?</span>
+                </button>
+                <button class="nav-tab" data-target="types">
+                    <i class="fas fa-list"></i>
+                    <span class="lang-ar">أنواع التصيد</span>
+                    <span class="lang-en">Phishing Types</span>
+                </button>
+                <button class="nav-tab" data-target="redflags">
+                    <i class="fas fa-flag"></i>
+                    <span class="lang-ar">علامات الخطر</span>
+                    <span class="lang-en">Red Flags</span>
+                </button>
+                <button class="nav-tab" data-target="socialeng">
+                    <i class="fas fa-brain"></i>
+                    <span class="lang-ar">الهندسة الاجتماعية</span>
+                    <span class="lang-en">Social Engineering</span>
+                </button>
+                <button class="nav-tab" data-target="protection">
+                    <i class="fas fa-shield-alt"></i>
+                    <span class="lang-ar">كيف تحمي نفسك</span>
+                    <span class="lang-en">Protection</span>
+                </button>
+                <button class="nav-tab" data-target="quiz">
+                    <i class="fas fa-question-circle"></i>
+                    <span class="lang-ar">اختبر معرفتك</span>
+                    <span class="lang-en">Test Your Knowledge</span>
+                </button>
+            </div>
+        </div>
+    </header>
+    
+    <div class="container">
+        <!-- ما هو التصيد -->
+        <section id="whatis" class="section active">
+            <h2>
+                <i class="fas fa-question-circle"></i> 
+                <span class="lang-ar">ما هو التصيد؟</span>
+                <span class="lang-en">What is Phishing?</span>
+            </h2>
+            
+            <div class="card">
+                <p class="lang-ar">التصيد هو عندما يحاول شخص ما خداعك لكشف معلومات شخصية مثل كلمات المرور أو أرقام البطاقات الائتمانية أو معلومات الهوية.</p>
+                <p class="lang-en">Phishing is when someone tries to trick you into revealing personal information like passwords, credit card numbers, or identity information.</p>
+                
+                <p class="lang-ar" style="margin-top: 1rem;">يمكن أن يحدث التصيد عبر:</p>
+                <p class="lang-en" style="margin-top: 1rem;">Phishing can happen through:</p>
+                
+                <ul style="margin-right: 1.5rem; margin-top: 0.5rem;">
+                    <li class="lang-ar">رسائل البريد الإلكتروني</li>
+                    <li class="lang-en">Email messages</li>
+                    <li class="lang-ar">الرسائل النصية (SMS)</li>
+                    <li class="lang-en">Text messages (SMS)</li>
+                    <li class="lang-ar">منصات التواصل الاجتماعي</li>
+                    <li class="lang-en">Social media platforms</li>
+                    <li class="lang-ar">المكالمات الهاتفية</li>
+                    <li class="lang-en">Phone calls</li>
+                </ul>
+            </div>
+            
+            <h3 class="lang-ar">أمثلة واقعية على التصيد</h3>
+            <h3 class="lang-en">Real Phishing Examples</h3>
+            
+            <div class="example-grid">
+                <div class="example-card">
+                    <h4><i class="fas fa-envelope"></i> 
+                        <span class="lang-ar">تصيد البنوك</span>
+                        <span class="lang-en">Bank Phishing</span>
+                    </h4>
+                    <p class="lang-ar">رسالة بريد إلكتروني تبدو وكأنها من بنكك تطلب تحديث معلومات حسابك بسبب "مشكلة تقنية". تحتوي على رابط موقع مزيف يشبه موقع البنك الحقيقي.</p>
+                    <p class="lang-en">An email that appears to be from your bank asking you to update your account information due to a "technical issue". It contains a link to a fake website that looks like the real bank's site.</p>
+                </div>
+                
+                <div class="example-card">
+                    <h4><i class="fas fa-mobile-alt"></i> 
+                        <span class="lang-ar">تصيد التطبيقات</span>
+                        <span class="lang-en">App Phishing</span>
+                    </h4>
+                    <p class="lang-ar">رسالة نصية تزعم أن حسابك على Netflix سيتم إيقافه وتطلب تحديث طريقة الدفع. الرابط يقود إلى موقع مزيف لسرقة بيانات البطاقة.</p>
+                    <p class="lang-en">A text message claiming your Netflix account will be suspended and asking you to update your payment method. The link leads to a fake site to steal your card details.</p>
+                </div>
+                
+                <div class="example-card">
+                    <h4><i class="fas fa-shipping-fast"></i> 
+                        <span class="lang-ar">تصيد الشحن</span>
+                        <span class="lang-en">Shipping Phishing</span>
+                    </h4>
+                    <p class="lang-ar">رسالة بريد إلكتروني تدعي أن لديك طرداً等待 الاستلام وتطلب دفع رسوم صغيرة لتحريره. يستغل المهاجمون توقع الناس للطرود.</p>
+                    <p class="lang-en">An email claiming you have a package waiting and asking for a small fee to release it. Attackers exploit people's anticipation for packages.</p>
+                </div>
+            </div>
+            
+            <div class="warning">
+                <i class="fas fa-exclamation-triangle"></i>
+                <div>
+                    <strong class="lang-ar">تذكر:</strong>
+                    <span class="lang-ar">لن تطلب منك المؤسسات الموثوقة أبداً إرسال معلوماتك السرية عبر البريد الإلكتروني أو الرسائل النصية.</span>
+                    <strong class="lang-en">Remember:</strong>
+                    <span class="lang-en">Trusted institutions will never ask you to send your confidential information via email or text messages.</span>
+                </div>
+            </div>
+        </section>
+        
+        <!-- أنواع التصيد -->
+        <section id="types" class="section">
+            <h2>
+                <i class="fas fa-list"></i> 
+                <span class="lang-ar">أنواع التصيد</span>
+                <span class="lang-en">Phishing Types</span>
+            </h2>
+            
+            <div class="example-grid">
+                <div class="example-card">
+                    <h4><i class="fas fa-envelope"></i> 
+                        <span class="lang-ar">التصيد عبر البريد الإلكتروني</span>
+                        <span class="lang-en">Email Phishing</span>
+                    </h4>
+                    <p class="lang-ar">المهاجمون يرسلون رسائل بريد إلكتروني مزيفة متنكرين بصفة مؤسسات موثوقة مثل البنوك أو منصات التواصل الاجتماعي أو الخدمات عبر الإنترنت.</p>
+                    <p class="lang-en">Attackers send fake emails pretending to be trusted organizations like banks, social media platforms, or online services.</p>
+                    <div class="tip">
+                        <i class="fas fa-lightbulb"></i>
+                        <div>
+                            <span class="lang-ar">ابحث عن أخطاء إملائية وتحقق من عنوان المرسل قبل النقر على أي رابط</span>
+                            <span class="lang-en">Look for spelling errors and verify the sender's address before clicking any links</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="example-card">
+                    <h4><i class="fas fa-sms"></i> 
+                        <span class="lang-ar">التصيد عبر الرسائل النصية (SMS)</span>
+                        <span class="lang-en">SMS Phishing (Smishing)</span>
+                    </h4>
+                    <p class="lang-ar">يتم إرسال رسائل نصية تحتوي على روابط خبيثة أو طلبات للمعلومات الشخصية، غالباً ما تدعي أنها من خدمات التوصيل أو البنوك.</p>
+                    <p class="lang-en">Text messages containing malicious links or requests for personal information, often claiming to be from delivery services or banks.</p>
+                    <div class="tip">
+                        <i class="fas fa-lightbulb"></i>
+                        <div>
+                            <span class="lang-ar">لا ترد على الرسائل النصية غير المتوقعة التي تطلب معلومات شخصية</span>
+                            <span class="lang-en">Don't reply to unexpected text messages asking for personal information</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="example-card">
+                    <h4><i class="fas fa-hashtag"></i> 
+                        <span class="lang-ar">التصيد عبر وسائل التواصل الاجتماعي</span>
+                        <span class="lang-en">Social Media Phishing</span>
+                    </h4>
+                    <p class="lang-ar">ينشئ المحتالون ملفات تعريف أو منشورات مزيفة على وسائل التواصل الاجتماعي لخداعك للنقر على الروابط أو مشاركة المعلومات الشخصية.</p>
+                    <p class="lang-en">Scammers create fake profiles or posts on social media to trick you into clicking links or sharing personal information.</p>
+                    <div class="tip">
+                        <i class="fas fa-lightbulb"></i>
+                        <div>
+                            <span class="lang-ar">تحقق دائمًا من الحسابات الرسمية قبل التفاعل مع العروض</span>
+                            <span class="lang-en">Always verify official accounts before interacting with offers</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <!-- علامات الخطر -->
+        <section id="redflags" class="section">
+            <h2>
+                <i class="fas fa-flag"></i> 
+                <span class="lang-ar">علامات الخطر في التصيد</span>
+                <span class="lang-en">Phishing Red Flags</span>
+            </h2>
+            
+            <div class="stats">
+                <div class="stat-card">
+                    <i class="fas fa-exclamation-triangle"></i>
+                    <div class="stat-number">91%</div>
+                    <p class="lang-ar">من الهجمات الإلكترونية تبدأ برسالة تصيد</p>
+                    <p class="lang-en">of cyber attacks start with a phishing email</p>
+                </div>
+                
+                <div class="stat-card">
+                    <i class="fas fa-envelope-open"></i>
+                    <div class="stat-number lang-ar">1 من كل 99</div>
+                    <div class="stat-number lang-en">1 in 99</div>
+                    <p class="lang-ar">رسالة بريد إلكتروني هي رسالة تصيد</p>
+                    <p class="lang-en">email is a phishing email</p>
+                </div>
+                
+                <div class="stat-card">
+                    <i class="fas fa-dollar-sign"></i>
+                    <div class="stat-number lang-ar">17.7 مليار $</div>
+                    <div class="stat-number lang-en">$17.7 billion</div>
+                    <p class="lang-ar">خسائر بسبب الاحتيال عبر البريد الإلكتروني سنويًا</p>
+                    <p class="lang-en">losses due to email fraud annually</p>
+                </div>
+            </div>
+            
+            <div class="example-grid">
+                <div class="example-card">
+                    <h4><i class="fas fa-language"></i> 
+                        <span class="lang-ar">لغة مستعجلة أو تهديدية</span>
+                        <span class="lang-en">Urgent or Threatening Language</span>
+                    </h4>
+                    <p class="lang-ar">"يجب تحديث حسابك في غضون 24 ساعة أو سيتم إيقافه!" - يستخدم المهاجمون التكتيكات العاطفية لدفعك لاتخاذ إجراء سريع.</p>
+                    <p class="lang-en">"Your account must be updated within 24 hours or it will be suspended!" - Attackers use emotional tactics to push you to act quickly.</p>
+                </div>
+                
+                <div class="example-card">
+                    <h4><i class="fas fa-user-secret"></i> 
+                        <span class="lang-ar">معلومات مرسل مشبوهة</span>
+                        <span class="lang-en">Suspicious Sender Information</span>
+                    </h4>
+                    <p class="lang-ar">عنوان بريد إلكتروني لا يتطابق مع اسم المؤسسة (مثل service@paypai.com بدلاً من service@paypal.com).</p>
+                    <p class="lang-en">Email address doesn't match the organization's name (like service@paypai.com instead of service@paypal.com).</p>
+                </div>
+                
+                <div class="example-card">
+                    <h4><i class="fas fa-id-card"></i> 
+                        <span class="lang-ar">طلبات المعلومات الشخصية</span>
+                        <span class="lang-en">Requests for Personal Information</span>
+                    </h4>
+                    <p class="lang-ar">أي رسالة تطلب كلمات المرور أو أرقام الضمان الاجتماعي أو تفاصيل البطاقة المصرفية هي علامة حمراء واضحة.</p>
+                    <p class="lang-en">Any message asking for passwords, social security numbers, or banking details is a clear red flag.</p>
+                </div>
+                
+                <div class="example-card">
+                    <h4><i class="fas fa-spell-check"></i> 
+                        <span class="lang-ar">أخطاء إملائية أو نحوية</span>
+                        <span class="lang-en">Spelling or Grammatical Errors</span>
+                    </h4>
+                    <p class="lang-ar">العديد من رسائل التصيد تحتوي على أخطاء إملائية أو نحوية أو صياغة غير طبيعية.</p>
+                    <p class="lang-en">Many phishing messages contain spelling or grammatical errors or unnatural phrasing.</p>
+                </div>
+            </div>
+        </section>
+        
+        <!-- الهندسة الاجتماعية -->
+        <section id="socialeng" class="section">
+            <h2>
+                <i class="fas fa-brain"></i> 
+                <span class="lang-ar">الهندسة الاجتماعية</span>
+                <span class="lang-en">Social Engineering</span>
+            </h2>
+            
+            <div class="card">
+                <p class="lang-ar">الهندسة الاجتماعية هي فن التلاعب بالناس لجعلهم يكشفون معلومات سرية أو يقومون بإجراءات تهدد الأمان.</p>
+                <p class="lang-en">Social engineering is the art of manipulating people to make them reveal confidential information or take actions that compromise security.</p>
+                
+                <p class="lang-ar" style="margin-top: 1rem;">على عكس اختراق التكنولوجيا، يستهدف هذا الهجوم النفس البشرية.</p>
+                <p class="lang-en" style="margin-top: 1rem;">Unlike hacking technology, this attack targets human psychology.</p>
+            </div>
+            
+            <h3 class="lang-ar">تقنيات الهندسة الاجتماعية</h3>
+            <h3 class="lang-en">Social Engineering Techniques</h3>
+            
+            <div class="example-grid">
+                <div class="example-card">
+                    <h4><i class="fas fa-theater-masks"></i> 
+                        <span class="lang-ar">التمهيد (Pretexting)</span>
+                        <span class="lang-en">Pretexting</span>
+                    </h4>
+                    <p class="lang-ar">إنشاء قصة مقنعة للحصول على المعلومات. مثال: المتصل الذي يدعي أنه من قسم تكنولوجيا المعلومات ويحتاج إلى كلمة مرورك "لإصلاح مشكلة".</p>
+                    <p class="lang-en">Creating a believable story to obtain information. Example: A caller claiming to be from IT department needing your password to "fix an issue".</p>
+                </div>
+                
+                <div class="example-card">
+                    <h4><i class="fas fa-bait"></i> 
+                        <span class="lang-ar">الإغراء (Baiting)</span>
+                        <span class="lang-en">Baiting</span>
+                    </h4>
+                    <p class="lang-ar">عرض شيء مغري يخفي البرامج الضارة. مثال: محرك أقراص USB موضوع في ساحة انتظار السيارات مع ملصق "معلومات الرواتب".</p>
+                    <p class="lang-en">Offering something tempting that hides malware. Example: A USB drive left in a parking lot with a "Salary Information" label.</p>
+                </div>
+                
+                <div class="example-card">
+                    <h4><i class="fas fa-door-open"></i> 
+                        <span class="lang-ar">المرافقة (Tailgating)</span>
+                        <span class="lang-en">Tailgating</span>
+                    </h4>
+                    <p class="lang-ar">متابعة شخص ما إلى منطقة مقيدة. مثال: شخص يحمل صناديق يطلب من موظف أن يفتح له الباب لأنه "نسي بطاقته".</p>
+                    <p class="lang-en">Following someone into a restricted area. Example: A person carrying boxes asks an employee to open the door because they "forgot their card".</p>
+                </div>
+                
+                <div class="example-card">
+                    <h4><i class="fas fa-exchange-alt"></i> 
+                        <span class="lang-ar">التبديل (Quid Pro Quo)</span>
+                        <span class="lang-en">Quid Pro Quo</span>
+                    </h4>
+                    <p class="lang-ar">عرض خدمة مقابل المعلومات. مثال: متصل يقدم دعمًا تقنيًا "مجانيًا" مقابل الوصول إلى جهاز الكمبيوتر الخاص بك.</p>
+                    <p class="lang-en">Offering a service in exchange for information. Example: A caller offers "free" technical support in exchange for access to your computer.</p>
+                </div>
+            </div>
+            
+            <div class="warning">
+                <i class="fas fa-exclamation-triangle"></i>
+                <div>
+                    <strong class="lang-ar">الوعي هو المفتاح:</strong>
+                    <span class="lang-ar">يمكن للوعي منع معظم هجمات الهندسة الاجتماعية. كن متشككًا وتعلم كيفية التعرف على هذه التكتيكات.</span>
+                    <strong class="lang-en">Awareness is Key:</strong>
+                    <span class="lang-en">Awareness can prevent most social engineering attacks. Be skeptical and learn to recognize these tactics.</span>
+                </div>
+            </div>
+        </section>
+        
+        <!-- كيف تحمي نفسك -->
+        <section id="protection" class="section">
+            <h2>
+                <i class="fas fa-shield-alt"></i> 
+                <span class="lang-ar">كيف تحمي نفسك من التصيد</span>
+                <span class="lang-en">How to Protect Yourself from Phishing</span>
+            </h2>
+            
+            <div class="example-grid">
+                <div class="example-card">
+                    <h4><i class="fas fa-search"></i> 
+                        <span class="lang-ar">تحقق من عناوين المرسلين والروابط</span>
+                        <span class="lang-en">Verify Senders and Links</span>
+                    </h4>
+                    <p class="lang-ar">قبل النقر على أي رابط، مرر مؤشر الفأرة فوقه لرؤية عنوان URL الفعلي. تأكد من أنه يتطابق مع موقع المؤسسة الرسمي.</p>
+                    <p class="lang-en">Before clicking any link, hover over it to see the actual URL. Make sure it matches the official organization's website.</p>
+                </div>
+                
+                <div class="example-card">
+                    <h4><i class="fas fa-lock"></i> 
+                        <span class="lang-ar">لا تشارك المعلومات الحساسة</span>
+                        <span class="lang-en">Don't Share Sensitive Information</span>
+                    </h4>
+                    <p class="lang-ar">لا ترسل أبدًا كلمات المرور أو معلومات البطاقة المصرفية أو بيانات الهوية عبر البريد الإلكتروني أو الدردشة.</p>
+                    <p class="lang-en">Never send passwords, banking information, or identity data via email or chat.</p>
+                </div>
+                
+                <div class="example-card">
+                    <h4><i class="fas fa-user-lock"></i> 
+                        <span class="lang-ar">استخدم المصادقة متعددة العوامل</span>
+                        <span class="lang-en">Use Multi-Factor Authentication</span>
+                    </h4>
+                    <p class="lang-ar">تفعيل MFA يضيف طبقة إضافية من الحماية حتى إذا حصل المهاجم على كلمة المرور الخاصة بك.</p>
+                    <p class="lang-en">Enabling MFA adds an extra layer of protection even if an attacker gets your password.</p>
+                </div>
+                
+                <div class="example-card">
+                    <h4><i class="fas fa-sync-alt"></i> 
+                        <span class="lang-ar">أجرِ تدريبات منتظمة للتوعية</span>
+                        <span class="lang-en">Conduct Regular Awareness Training</span>
+                    </h4>
+                    <p class="lang-ar">ابقَ على اطلاع بأحدث تهديدات التصيد من خلال المشاركة في تدريبات الأمن السيبراني بانتظام.</p>
+                    <p class="lang-en">Stay informed about the latest phishing threats by participating in regular cybersecurity training.</p>
+                </div>
+            </div>
+            
+            <div class="tip">
+                <i class="fas fa-lightbulb"></i>
+                <div>
+                    <strong class="lang-ar">فكر قبل النقر!</strong>
+                    <span class="lang-ar">خذ لحظة للتفكير قبل النقر على الروابط أو فتح المرفقات أو الرد على الطلبات غير المتوقعة للمعلومات.</span>
+                    <strong class="lang-en">Think Before You Click!</strong>
+                    <span class="lang-en">Take a moment to think before clicking links, opening attachments, or responding to unexpected information requests.</span>
+                </div>
+            </div>
+        </section>
+        
+        <!-- اختبر معرفتك -->
+        <section id="quiz" class="section">
+            <h2>
+                <i class="fas fa-question-circle"></i> 
+                <span class="lang-ar">اختبر معرفتك بالتصيد</span>
+                <span class="lang-en">Test Your Phishing Knowledge</span>
+            </h2>
+            
+            <div class="quiz-container">
+                <div class="quiz-question" id="question">
+                    <span class="lang-ar">تحتوي رسالة البريد الإلكتروني على رابط يبدو أنه من بنكك. ماذا يجب أن تفعل أولاً؟</span>
+                    <span class="lang-en">An email contains a link that appears to be from your bank. What should you do first?</span>
+                </div>
+                
+                <div class="quiz-options" id="options">
+                    <div class="quiz-option" data-correct="false">
+                        <span class="lang-ar">النقر على الرابط لتسجيل الدخول</span>
+                        <span class="lang-en">Click the link to log in</span>
+                    </div>
+                    <div class="quiz-option" data-correct="true">
+                        <span class="lang-ar">تمرير الماوس فوق الرابط لرؤية عنوان URL الفعلي</span>
+                        <span class="lang-en">Hover over the link to see the actual URL</span>
+                    </div>
+                    <div class="quiz-option" data-correct="false">
+                        <span class="lang-ar">إعادة توجيه الرسالة إلى زملائك</span>
+                        <span class="lang-en">Forward the message to your colleagues</span>
+                    </div>
+                    <div class="quiz-option" data-correct="false">
+                        <span class="lang-ar">حذف الرسالة دون فتحها</span>
+                        <span class="lang-en">Delete the message without opening it</span>
+                    </div>
+                </div>
+                
+                <button class="btn" id="submit-answer">
+                    <i class="fas fa-paper-plane"></i>
+                    <span class="lang-ar">تقديم الإجابة</span>
+                    <span class="lang-en">Submit Answer</span>
+                </button>
+                
+                <div class="quiz-result" id="result"></div>
+            </div>
+            
+            <div style="text-align: center; margin-top: 2rem;">
+                <button class="btn" id="next-question" style="display: none;">
+                    <i class="fas fa-arrow-right"></i>
+                    <span class="lang-ar">السؤال التالي</span>
+                    <span class="lang-en">Next Question</span>
+                </button>
+            </div>
+        </section>
+    </div>
+    
+    <footer>
+        <p>
+            <span class="lang-ar">فكر قبل النقر! - مشروع توعوي عن التصيد والهندسة الاجتماعية</span>
+            <span class="lang-en">Think Before You Click! - Awareness project about phishing and social engineering</span>
+        </p>
+        <div class="team-members">
+            <div class="member">
+                <span class="lang-ar">أسامة أحمد حقي</span>
+                <span class="lang-en">Osama Ahmed Haqwi</span>
+            </div>
+            <div class="member">
+                <span class="lang-ar">محمد مفرح عسيري</span>
+                <span class="lang-en">Mohammed Mufarih Asiri</span>
+            </div>
+            <div class="member">
+                <span class="lang-ar">محمد عوض القحطاني</span>
+                <span class="lang-en">Mohammed Awad Al-Qahtani</span>
+            </div>
+            <div class="member">
+                <span class="lang-ar">بسام عبدالكريم بشارة</span>
+                <span class="lang-en">Bassam Abdulkreem Bushara</span>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
